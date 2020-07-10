@@ -11,4 +11,10 @@ public class Student {
 	public void setScores(Scores scores) {
 		this.scores = scores;
 	}
+
+	@Override
+	public String toString() {
+		return "Student [scores=" + scores + "]";
+	}
+	
 }
